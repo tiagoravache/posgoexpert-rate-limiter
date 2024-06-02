@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
-	"github.com/mrjonze/goexpert/rate-limiter/pkg"
 	"net"
 	"net/http"
 	"strings"
+
+	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/middleware"
+	"github.com/tiagoravache/posgoexpert/rate-limiter/pkg"
 )
 
 func main() {

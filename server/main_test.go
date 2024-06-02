@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/mrjonze/goexpert/rate-limiter/server/config"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/tiagoravache/posgoexpert/rate-limiter/server/config"
 )
 
 func TestLimitIpAllOk(t *testing.T) {

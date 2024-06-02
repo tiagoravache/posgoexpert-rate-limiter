@@ -1,5 +1,5 @@
-# goexpert-rate-limiter
-Resposta ao desafio técnico Rate Limiter da pós Go Expert.
+# desafio-rate-limiter
+Resposta para o desafio técnico Rate Limiter da pós Go Expert.
 
 Para rodar o banco de dados Redis, execute o comando abaixo:
 ```shell
